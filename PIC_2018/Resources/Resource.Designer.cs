@@ -41,63 +41,26 @@ namespace PIC_2018
 			}
 		}
 		
-		public partial class Dimension
-		{
-			
-			// aapt resource value: 0x7f040000
-			public const int fab_margin = 2130968576;
-			
-			// aapt resource value: 0x7f040004
-			public const int standard_100 = 2130968580;
-			
-			// aapt resource value: 0x7f040001
-			public const int standard_12 = 2130968577;
-			
-			// aapt resource value: 0x7f040005
-			public const int standard_145 = 2130968581;
-			
-			// aapt resource value: 0x7f040002
-			public const int standard_23 = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int standard_55 = 2130968579;
-			
-			static Dimension()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Dimension()
-			{
-			}
-		}
-		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int button_background = 2130837504;
+			public const int b01 = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int button_focus = 2130837505;
+			public const int b02 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int button_press = 2130837506;
+			public const int b03 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int button_unfocused = 2130837507;
+			public const int b04 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int img01 = 2130837508;
+			public const int b05 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int img02 = 2130837509;
-			
-			// aapt resource value: 0x7f020006
-			public const int img03 = 2130837510;
-			
-			// aapt resource value: 0x7f020007
-			public const int img04 = 2130837511;
+			public const int logo = 2130837509;
 			
 			static Drawable()
 			{
@@ -112,8 +75,26 @@ namespace PIC_2018
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int button1 = 2131099648;
+			// aapt resource value: 0x7f050001
+			public const int button01 = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int button02 = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int button03 = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int button04 = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int buttonMainObjetivos = 2131034118;
+			
+			// aapt resource value: 0x7f050000
+			public const int imageView1 = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int textView1 = 2131034114;
 			
 			static Id()
 			{
@@ -131,6 +112,12 @@ namespace PIC_2018
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int Objetivos = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int StartLayout = 2130903042;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -144,8 +131,8 @@ namespace PIC_2018
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int app_name = 2131034112;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
