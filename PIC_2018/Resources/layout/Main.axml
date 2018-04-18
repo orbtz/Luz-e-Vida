@@ -3,5 +3,161 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/holo_blue_light">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:layout_margin="20dp" />
+<!--Uma linearLayout com uma gridLayout dentro
+    Cada Grid terá uma outra Linear, para receber botão e linha de texto-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp">
+    <!--Grid-->
+        <GridLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:background="@android:color/holo_red_dark"
+            android:orientation="vertical">
+        <!--Linear com o item 01-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/button01"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/b01"
+                    android:scaleType="fitXY"
+                    android:gravity="center" />
+                <TextView
+                    android:text="01"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:gravity="center" />
+            </LinearLayout>
+        <!--Linear com o item 02-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:layout_marginTop="30dp">
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/button03"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/b01"
+                    android:scaleType="fitXY"
+                    android:gravity="center" />
+                <TextView
+                    android:text="03"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:gravity="center" />
+            </LinearLayout>
+        <!--Linear com o item 03-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/button02"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/b01"
+                    android:scaleType="fitXY"
+                    android:gravity="center" />
+                <TextView
+                    android:text="02"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:gravity="center" />
+            </LinearLayout>
+        <!--Linear com o item 04-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp">
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/button04"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/b01"
+                    android:scaleType="fitXY"
+                    android:gravity="center" />
+                <TextView
+                    android:text="04"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:gravity="center" />
+            </LinearLayout>
+        </GridLayout>
+    <!--Linear com as grids termina aqui-->
+    </LinearLayout>
+<!--Linear com os 17 Objetivos-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/buttonMainObjetivos"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:src="@drawable/b01"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+            android:gravity="center" />
+        <TextView
+            android:text="17 OBJETIVOS SUSTENTÁVEIS \nDO MILÊNIO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center" />
+    </LinearLayout>
 </LinearLayout>
