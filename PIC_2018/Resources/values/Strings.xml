@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Luz e Vida</string>
+
+  <!--Splash Screen-->
+  <style name="MyTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@values/Splash_Screen</item>
+  </style>
+
+  <!--Splash Screen BACKUP-->
+  <style name="Theme.SplashBackup" parent="android:Theme">
+    <item name="android:src">               @drawable/logo</item>
+    <item name="android:tileMode">          disabled</item>
+    <item name="android:layout_gravity">    center</item>
+  </style>
 </resources>
