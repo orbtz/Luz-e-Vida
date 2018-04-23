@@ -62,6 +62,9 @@ namespace PIC_2018
 			// aapt resource value: 0x7f020005
 			public const int logo = 2130837509;
 			
+			// aapt resource value: 0x7f020006
+			public const int logoFULL = 2130837510;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -75,23 +78,29 @@ namespace PIC_2018
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int button01 = 2131034113;
+			// aapt resource value: 0x7f050003
+			public const int button01 = 2131034115;
 			
 			// aapt resource value: 0x7f050004
 			public const int button02 = 2131034116;
 			
-			// aapt resource value: 0x7f050003
-			public const int button03 = 2131034115;
-			
-			// aapt resource value: 0x7f050005
-			public const int button04 = 2131034117;
-			
-			// aapt resource value: 0x7f050006
-			public const int buttonMainObjetivos = 2131034118;
-			
 			// aapt resource value: 0x7f050000
 			public const int imageView1 = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int mainB01 = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int mainB02 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int mainB03 = 2131034119;
+			
+			// aapt resource value: 0x7f050001
+			public const int mainB04 = 2131034113;
+			
+			// aapt resource value: 0x7f050008
+			public const int promBBack = 2131034120;
 			
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;
@@ -110,13 +119,25 @@ namespace PIC_2018
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Gestacao = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int StartLayout = 2130903041;
+			public const int layout1 = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Tela01 = 2130903042;
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Prevencao = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Promocao = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Protecao = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int StartLayout = 2130903046;
 			
 			static Layout()
 			{
