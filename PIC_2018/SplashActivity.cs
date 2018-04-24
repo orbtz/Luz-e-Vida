@@ -12,8 +12,9 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    [Activity(Theme = "@style/Theme.Splash",
-              MainLauncher = true,
+
+    //theme = "@style/MyTheme.Splash"
+    [Activity(MainLauncher = false,
               NoHistory = true)]
     public class SplashActivity : Activity
     {
