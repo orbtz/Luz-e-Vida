@@ -12,78 +12,80 @@ namespace PIC_2018
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.StartLayout);
-        }
-
-        public void OnStart()
-        {
-            base.OnStart();
-            int currentLayout = 0; //0 é a layout inicial
         }
         
+        // ONSTART VAI AQUI //
+
         protected override void OnResume()
         {
-            
             base.OnResume();
-            SetContentView(Resource.Layout.Main);
 
             //Escutando os botões
-            ImageButton BUTTON_promocao     = FindViewById<ImageButton>(Resource.Id.BUT_promo);
-            ImageButton BUTTON_prevencao    = FindViewById<ImageButton>(Resource.Id.BUT_preve);
-            ImageButton BUTTON_protecao     = FindViewById<ImageButton>(Resource.Id.BUT_prote);
-            ImageButton BUTTON_gestacao     = FindViewById<ImageButton>(Resource.Id.BUT_gesta);
+            Buttons ObjectB = new Buttons();
+            ObjectB.ImageButtons();
+            
+            AppActivity ObjectAA = new AppActivity();
+            int CL = ObjectAA.ReturnLayout();
+            //Abre a tela aberta por último
+            //Main por padrão
+            CallLayout(CL);
+        }
 
-            //Chamada dos botões acionados
+        //BOTÃO DE VOLTAR
+        public override void OnBackPressed()
+        {
+            base.OnBackPressed();
+            AppActivity ObjectAA = new AppActivity();
+            int CL = ObjectAA.ReturnLayout();
+
+            Toast.MakeText(this, "Aperte novamente para fechar o aplicativo", ToastLength.Short).Show();
+
+            SetContentView(Resource.Layout.Main);
+            
+        }
+
+        //-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        //Funções para os botões
+        protected void ButtonAction()
+        {
+            Buttons ObjectB = new Buttons();
+
             //BOTÃO PROMOÇÃO
-            BUTTON_promocao.Click += delegate //Se o botão for acionado	
+            ObjectB.CallImageButtons(1).Click += delegate
             {
                 CallLayout(1);
             };
 
             //BOTÃO PREVENÇÃO
-            BUTTON_prevencao.Click += delegate //Se o botão for acionado	
+            ObjectB.CallImageButtons(2).Click += delegate
             {
                 CallLayout(2);
             };
 
-            //BOTÃO PROTEÇÃO
-            BUTTON_protecao.Click += delegate //Se o botão for acionado	
+            //BOTÃO GESTAÇÃO
+            ObjectB.CallImageButtons(3).Click += delegate
             {
                 CallLayout(3);
             };
 
-            //BOTÃO GESTAÇÃO
-            BUTTON_gestacao.Click += delegate //Se o botão for acionado	
+            //BOTÃO PROMOÇÃO
+            ObjectB.CallImageButtons(11).Click += delegate
             {
-                CallLayout(4);
+                CallLayout(11);
             };
-
-
-            //BOTÃO DE VOLTAR
-
         }
-
-        public override void OnBackPressed()
-        {
-            base.OnBackPressed();
-            
-            
-        }
-
-
-        //Pega e armazena a layout atual
-        public void CurrentLayout(int cl)
-        {
-            int currentLayout = cl;
-        }
+        //Funções para os botões
+        //-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
         //-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-        //Funções chamada de botões
+        //Funções chamada de telas
         protected void CallLayout(int layout)
         {
-            CurrentLayout(layout); //Armazena na função qual a atual layout ativa
+            AppActivity ObjectAA = new AppActivity();
+            ObjectAA.SaveCurrentLayout(layout);
+
+            if (layout.Equals(0)) //Botão Promoção
+                SetContentView(Resource.Layout.Main);
 
             if (layout.Equals(1)) //Botão Promoção
                 SetContentView(Resource.Layout.Promocao);
@@ -92,13 +94,22 @@ namespace PIC_2018
                 SetContentView(Resource.Layout.Prevencao);
 
             if (layout.Equals(3)) //Botão Proteção
-                SetContentView(Resource.Layout.Protecao);
-
-            if (layout.Equals(4)) //Botão Gestação
                 SetContentView(Resource.Layout.Gestacao);
-            
+
+            if (layout.Equals(11)) //Botão Objetivos Milenio
+                SetContentView(Resource.Layout.ObjetivosMilenio);
+
+            if (layout.Equals(12)) //Botão Principios SUS
+                SetContentView(Resource.Layout.ObjetivosMilenio);
+
+            if (layout.Equals(13)) //Botão Proteção Gestação
+                SetContentView(Resource.Layout.ObjetivosMilenio);
+
+            if (layout.Equals(14)) //Botão Metodos COntraceptivos
+                SetContentView(Resource.Layout.ObjetivosMilenio);
+
         }
-        //Funções chamada de botões
+        //Funções chamada de telas
         //-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
     }

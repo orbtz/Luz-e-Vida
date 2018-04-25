@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/darker_gray">
+    <ImageView
+        android:src="@drawable/logoFULL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:layout_margin="5dp" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/darker_gray"
+      android:gravity="center"
+      android:layout_gravity="center_horizontal">
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/promBBack"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/b05"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:text="PROMOÇÃO A SAÚDE"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center" />
+  </LinearLayout>
+  <!--Uma linearLayout com uma linearLayout dentro
+    Cada Linear terá uma outra Linear, para receber botão e linha de texto-->
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent">
+    <!--Linear-->
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+      <!--Linear com o item 01-->
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+          android:gravity="center"
+          android:layout_marginTop="30dp">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button01"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/b01"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="OBJETIVOS DO MILÊNIO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textSize="15dp" />
+      </LinearLayout>
+      
+    </LinearLayout>
+    <!--Linear com aa lista termina aqui-->
+  </LinearLayout>
+</LinearLayout>
