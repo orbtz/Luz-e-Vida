@@ -55,11 +55,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppActivity.cs" />
-    <Compile Include="Buttons.cs" />
+    <Compile Include="ButtonsInfo.cs" />
+    <Compile Include="GestacaoActivity.cs" />
+    <Compile Include="InformationActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="PrevençãoActivity.cs" />
+    <Compile Include="PromocaoActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashActivity.cs" />
+    <Compile Include="TextInformation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -75,7 +80,7 @@
     <AndroidResource Include="Resources\layout\Gestacao.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ObjetivosMilenio.axml">
+    <AndroidResource Include="Resources\layout\Information.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -117,10 +122,10 @@
     <AndroidResource Include="Resources\drawable\logoFULL.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\ObjetivosMilenio.xml" />
+    <AndroidResource Include="Resources\drawable\objetivosMilenio.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\objetivosMilenio.png" />
+    <Content Include="CLASSIFICAÇÃO_BOTÕES.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
