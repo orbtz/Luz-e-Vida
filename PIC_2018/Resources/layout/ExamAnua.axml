@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        <ImageView
+            android:src="@drawable/logoFULL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/imageView1"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+<!--Uma linearLayout com uma ScrollView dentro-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1">
+        <!--Uma linearLayout com uma linearLayout dentro
+    Cada Linear terá uma outra Linear, para receber botão e linha de texto-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:id="@+id/linearLayout1">
+            <!--Linear-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout2">
+                <!--LINEAR COM A BIG_IMG-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px">
+                        <ImageView
+                            android:src="@drawable/objetivosmilenio"
+                            android:layout_width="fill_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                <!--Linear com o item 01-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_vertical"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="Hemograma Completo"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="O hemograma completo é um tipo de exame de sangue feito para medir a saúde geral do paciente. É muito usado para diagnosticar distúrbios como anemia, doenças autoimunes e leucemia. Qualquer pessoa pode realiza-lo, inclusive gestantes."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 02-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="Coleta de C.O. - Papanicolau"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="É um teste realizado para detectar alterações nas células do colo do útero. O exame preventivo é indolor, simples e rápido. Para garantir um resultado correto, a mulher não deve ter relações sexuais (mesmo com camisinha) nos dois dias anteriores ao exame, evitar também o uso de duchas, medicamentos vaginais e anticoncepcionais locais nas 48 horas anteriores à realização do exame. É importante também que não esteja menstruada, porque a presença de sangue pode alterar o resultado."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            <!--Linear com aa lista termina aqui-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

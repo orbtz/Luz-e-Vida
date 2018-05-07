@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        <ImageView
+            android:src="@drawable/logoFULL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/imageView1"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/mainB04"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/b03"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp" />
+    <!--TEXTO SUPERIOR-->
+        <TextView
+            android:text="DOENÇAS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center" />
+    </LinearLayout>
+<!--Uma linearLayout com uma ScrollView dentro-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1">
+        <!--Uma linearLayout com uma linearLayout dentro
+    Cada Linear terá uma outra Linear, para receber botão e linha de texto-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:id="@+id/linearLayout1">
+            <!--Linear-->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout2">
+                <!--Linear com o item 01-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout3">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/sifi"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="SÍFILIS"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 02-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout4">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/hepa"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="HEPATITE B/C"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 03-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout5">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/hiv"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="HIV / AIDS"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 04-->
+                <!--Linear com o item 05-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout7">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/hpv"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="HPV"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 06-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout8">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/gono"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="GONORRÉI / CLAMÍDIAA"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 07-->
+                <!--Linear com o item 08-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout10">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/herp"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="HERPES"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                <!--Linear com o item 09-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/linearLayout11">
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/trico"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/b04"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp" />
+                        <TextView
+                            android:text="TRICOMONÍASE"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView1"
+                            android:gravity="center"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            <!--Linear com aa lista termina aqui-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

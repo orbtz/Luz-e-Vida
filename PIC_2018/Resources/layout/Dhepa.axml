@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        <ImageView
+            android:src="@drawable/logoFULL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/imageView1"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+<!--Uma linearLayout com uma ScrollView dentro-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1">
+        <!--Uma linearLayout com uma linearLayout dentro
+    Cada Linear terá uma outra Linear, para receber botão e linha de texto-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:id="@+id/linearLayout1">
+            <!--Linear-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout2">
+                <!--LINEAR COM A BIG_IMG-->
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px">
+                        <ImageView
+                            android:src="@drawable/objetivosmilenio"
+                            android:layout_width="fill_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                <!--Linear com o item 01-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_vertical"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="O QUE É?"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="A hepatite do tipo B é uma doença infecciosa causada por um vírus presente no sangue, esperma e leite materno."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 02-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="TRANSMISSÃO"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="A doença é transmitida pela relação sexual sem camisinha, da mãe infectada para o filho durantes a gestação, parto ou amamentação, compartilhamento de material para uso de drogas (agulhas, seringas, cachimbos), de higiene pessoal (lâminas, escolas de dente, alicate de unha ou outros objetos que furam ou cortam) ou confecção de tatuagem e colocação de piercing ou pela transfusão de sangue contaminado."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 03-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="SINTOMAS"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="A maioria dos casos desta doença não apresentam sintomas, mas os mais frequentes são cansaço, tontura, enjoo e/ou vômitos, febre, dor abdominal, pele e olhos amarelados, urina escura e fezes clara. Estes sintomas costumas aparecer de 1 a 6 meses após a infecção."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 04-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="TRATAMENTO"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="O diagnóstico pode ser feito por meio de exame de sangue específico. Com o resultado positivo, o médico indicará o tratamento adequado. É indicado não consumir bebidas alcoólicas por, no mínimo, 6 meses."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            <!--Linear com aa lista termina aqui-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

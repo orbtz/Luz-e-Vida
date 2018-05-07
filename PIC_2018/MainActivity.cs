@@ -51,7 +51,7 @@ namespace PIC_2018
             BUTTON_prevencao.Click += delegate
             {
                 ButtonsInfo.LastPressed(2);
-                NextActivity = new Intent(this, typeof(PrevençãoActivity)); //SetContentView(Resource.Layout.Promocao);
+                NextActivity = new Intent(this, typeof(DoencasActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
                 StartActivity(NextActivity);
             };
@@ -59,7 +59,7 @@ namespace PIC_2018
             BUTTON_gestacao.Click += delegate
             {
                 ButtonsInfo.LastPressed(3);
-                NextActivity = new Intent(this, typeof(PromocaoActivity)); //SetContentView(Resource.Layout.Promocao);
+                NextActivity = new Intent(this, typeof(GestacaoActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
                 StartActivity(NextActivity);
                 

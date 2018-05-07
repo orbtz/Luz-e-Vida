@@ -35,7 +35,7 @@ namespace PIC_2018
             BUTTON_Metodos = FindViewById<ImageButton>(Resource.Id.BUT_MC);
             BUTTON_Exames = FindViewById<ImageButton>(Resource.Id.BUT_EA);
         }
-
+        
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -53,26 +53,27 @@ namespace PIC_2018
             BUTTON_Objetivos.Click += delegate
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
+                //StartActivity(NextActivity);
                 //Finish();
                 ButtonPressed.LastPressed(11);
-                StartActivity(NextActivity);
-
+                SetContentView(Resource.Layout.ObjMil);
+                
             };
 
             BUTTON_SUS.Click += delegate
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
-                ButtonPressed.LastPressed(12);
-                StartActivity(NextActivity);
+                SetContentView(Resource.Layout.SUS);
+                //StartActivity(NextActivity);
             };
 
             BUTTON_Protecao.Click += delegate
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
-                ButtonPressed.LastPressed(13);
-                StartActivity(NextActivity);
+                SetContentView(Resource.Layout.ProtecaoGestacao);
+                //StartActivity(NextActivity);
 
             };
 
@@ -81,7 +82,8 @@ namespace PIC_2018
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
                 ButtonPressed.LastPressed(14);
-                StartActivity(NextActivity);
+                SetContentView(Resource.Layout.MetConcep);
+                //StartActivity(NextActivity);
 
             };
 
@@ -90,7 +92,8 @@ namespace PIC_2018
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
                 ButtonPressed.LastPressed(15);
-                StartActivity(NextActivity);
+                SetContentView(Resource.Layout.ExamAnua);
+                //StartActivity(NextActivity);
 
             };
             // -- -- -- CHAMADA DE OUTRAS ACTIVITIES DE FUTURAS TELAS -- -- -- //

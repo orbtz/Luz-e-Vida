@@ -12,7 +12,8 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    class PrevençãoActivity : Activity
+    [Activity(Label = "Prevenção")]
+    class PrevencaoActivity : Activity
     {
         //BOTÕES DA TELA
         ImageButton BUTTON_Doencas;   //21
@@ -42,9 +43,9 @@ namespace PIC_2018
             // -- -- -- CHAMADA DE OUTRAS ACTIVITIES DE FUTURAS TELAS -- -- -- //
             BUTTON_Doencas.Click += delegate
             {
-                NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
+                //ButtonsInfo.LastPressed(2);
+                NextActivity = new Intent(this, typeof(DoencasActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
-                ButtonPressed.LastPressed(21);
                 StartActivity(NextActivity);
 
             };
