@@ -65,63 +65,6 @@
                             android:scaleType="centerCrop" />
                     </LinearLayout>
                 <!--Linear com o item 01-->
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="match_parent"
-                        android:background="@android:color/transparent"
-                        android:gravity="left"
-                        android:layout_marginTop="10dp"
-                        android:id="@+id/linearLayout3"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp">
-                        <ImageView
-                            android:src="@drawable/b208"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:id="@+id/imageView1"
-                            android:layout_gravity="center_vertical"
-                            android:scaleType="centerInside" />
-                        <TextView
-                            android:text="O QUE É?"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/infoData"
-                            android:background="@android:color/transparent"
-                            android:gravity="left"
-                            android:textSize="15dp"
-                            android:inputType="textMultiLine"
-                            android:capitalize="sentences"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp"
-                            android:layout_gravity="center" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="match_parent"
-                        android:background="@android:color/transparent"
-                        android:gravity="left"
-                        android:layout_marginTop="5dp"
-                        android:id="@+id/linearLayout3"
-                        android:orientation="vertical"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp">
-                        <TextView
-                            android:text="A hepatite do tipo B é uma doença infecciosa causada por um vírus presente no sangue, esperma e leite materno."
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/infoData"
-                            android:background="@android:color/transparent"
-                            android:gravity="left"
-                            android:textSize="15dp"
-                            android:inputType="textMultiLine"
-                            android:capitalize="sentences"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp"
-                            android:layout_gravity="center" />
-                    </LinearLayout>
                 <!--Linear com o item 02-->
                     <LinearLayout
                         android:layout_width="fill_parent"
@@ -134,14 +77,14 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b209"
+                            android:src="@drawable/b01"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerInside" />
                         <TextView
-                            android:text="TRANSMISSÃO"
+                            android:text="HEMOGRAMA"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -166,7 +109,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <TextView
-                            android:text="A doença é transmitida pela relação sexual sem camisinha, da mãe infectada para o filho durantes a gestação, parto ou amamentação, compartilhamento de material para uso de drogas (agulhas, seringas, cachimbos), de higiene pessoal (lâminas, escolas de dente, alicate de unha ou outros objetos que furam ou cortam) ou confecção de tatuagem e colocação de piercing ou pela transfusão de sangue contaminado."
+                            android:text="Exame importante para diagnosticar, por meio da verificação do sangue, a anemia."
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -192,14 +135,14 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b210"
+                            android:src="@drawable/b01"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerInside" />
                         <TextView
-                            android:text="SINTOMAS"
+                            android:text="GLICEMIA DE JEJUM"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -224,7 +167,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <TextView
-                            android:text="A maioria dos casos desta doença não apresentam sintomas, mas os mais frequentes são cansaço, tontura, enjoo e/ou vômitos, febre, dor abdominal, pele e olhos amarelados, urina escura e fezes clara. Estes sintomas costumas aparecer de 1 a 6 meses após a infecção."
+                            android:text="Este exame busca observar os níveis de glicose no corpo da grávida. Observa-se existe o diabetes gestacional."
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -250,14 +193,14 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b211"
+                            android:src="@drawable/b01"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerInside" />
                         <TextView
-                            android:text="TRATAMENTO"
+                            android:text="COLETA DE SANGUE"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -282,7 +225,181 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <TextView
-                            android:text="O diagnóstico pode ser feito por meio de exame de sangue específico. Com o resultado positivo, o médico indicará o tratamento adequado. É indicado não consumir bebidas alcoólicas por, no mínimo, 6 meses."
+                            android:text="Importante para determinar qual o grupo sanguíneo e também o fato Rh da grávida e do feto. Além disto, também é importante para encontrar traços da hepatite B, toxoplasmose, HIV, rubéola e sífilis."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 05-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="EXAME DE URINA"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="Exame básico que busca detectar algum tipo de infecção urinária."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 06-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="ULTRASOM OBSTÉTRICO"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="Exame utilizado para confirmar a cronologia da gestação, ou seja, quanto tempo o feto está em desenvolvimento no corpo da mãe. Também é utilizado para detectar doenças cromossômicas ou malformações."
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                <!--Linear com o item 04-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:src="@drawable/b01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:text="PAPANICOLAU"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/infoData"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:capitalize="sentences"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/linearLayout3"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:text="Importante exame para detectar o câncer do colo de útero."
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"

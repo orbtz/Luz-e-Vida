@@ -33,7 +33,7 @@
             android:id="@+id/promBBack"
             android:layout_gravity="center"
             android:background="@android:color/transparent"
-            android:src="@drawable/b05"
+            android:src="@drawable/b100"
             android:scaleType="fitXY"
             android:layout_marginRight="10dp" />
         <TextView
@@ -98,7 +98,7 @@
                     android:id="@+id/BUT_SUS"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/b04"
+                    android:src="@drawable/b102"
                     android:scaleType="fitXY"
                     android:layout_marginRight="10dp" />
                 <TextView
@@ -124,7 +124,7 @@
                     android:id="@+id/BUT_PG"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/b02"
+                    android:src="@drawable/b103"
                     android:scaleType="fitXY"
                     android:layout_marginRight="10dp" />
                 <TextView
@@ -150,7 +150,7 @@
                     android:id="@+id/BUT_MC"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/b03"
+                    android:src="@drawable/b104"
                     android:scaleType="fitXY"
                     android:layout_marginRight="10dp" />
                 <TextView
@@ -176,7 +176,7 @@
                     android:id="@+id/BUT_EA"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/b02"
+                    android:src="@drawable/b105"
                     android:scaleType="fitXY"
                     android:layout_marginRight="10dp" />
                 <TextView

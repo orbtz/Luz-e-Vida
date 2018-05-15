@@ -76,7 +76,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b01"
+                            android:src="@drawable/b208"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
@@ -134,7 +134,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b01"
+                            android:src="@drawable/b209"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
@@ -192,7 +192,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b01"
+                            android:src="@drawable/b210"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"
@@ -257,7 +257,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/infoData"
-                            android:background="@android:color/holo_green_dark"
+                            android:background="@android:color/transparent"
                             android:layout_marginBottom="3dp" />
                     </LinearLayout>
                     <LinearLayout
@@ -304,7 +304,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/infoData"
-                            android:background="@android:color/holo_green_dark"
+                            android:background="@android:color/transparent"
                             android:layout_marginBottom="3dp" />
                     </LinearLayout>
                     <LinearLayout
@@ -351,7 +351,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/infoData"
-                            android:background="@android:color/holo_green_dark"
+                            android:background="@android:color/transparent"
                             android:layout_marginBottom="3dp" />
                     </LinearLayout>
                     <LinearLayout
@@ -398,7 +398,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/infoData"
-                            android:background="@android:color/holo_green_dark"
+                            android:background="@android:color/transparent"
                             android:layout_marginBottom="3dp" />
                     </LinearLayout>
                 <!--Linear com o item 04-->
@@ -413,7 +413,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp">
                         <ImageView
-                            android:src="@drawable/b01"
+                            android:src="@drawable/b211"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:id="@+id/imageView1"

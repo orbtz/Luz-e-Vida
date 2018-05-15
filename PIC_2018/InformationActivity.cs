@@ -12,7 +12,8 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    [Activity(MainLauncher = false)]
+    [Activity(MainLauncher = false,
+        ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     class InformationActivity : Activity
     {
         ButtonsInfo lastPressed = new ButtonsInfo();

@@ -12,17 +12,15 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    [Activity(Label = "Promoção e Proteção",
+    [Activity(Label = "Exames Gestação",
         ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
-    class PromocaoActivity : Activity
+    class ExamesGestacaoActivity : Activity
     {
 
         //BOTÕES DA TELA
-        ImageButton BUTTON_Objetivos;   //11
-        ImageButton BUTTON_SUS;         //12
-        ImageButton BUTTON_Protecao;    //13
-        ImageButton BUTTON_Metodos;     //14
-        ImageButton BUTTON_Exames;      //15
+        ImageButton BUTTON_T1;   //11
+        ImageButton BUTTON_T2;         //12
+        ImageButton BUTTON_T3;    //13
 
         ButtonsInfo ButtonPressed = new ButtonsInfo();
 
@@ -30,13 +28,11 @@ namespace PIC_2018
 
         public void LayoutFindViewById() //"Escuta" os ImageButtons
         {
-            BUTTON_Objetivos = FindViewById<ImageButton>(Resource.Id.BUT_OM);
-            BUTTON_SUS = FindViewById<ImageButton>(Resource.Id.BUT_SUS);
-            BUTTON_Protecao = FindViewById<ImageButton>(Resource.Id.BUT_PG);
-            BUTTON_Metodos = FindViewById<ImageButton>(Resource.Id.BUT_MC);
-            BUTTON_Exames = FindViewById<ImageButton>(Resource.Id.BUT_EA);
+            BUTTON_T1 = FindViewById<ImageButton>(Resource.Id.BUT_trim1);
+            BUTTON_T2 = FindViewById<ImageButton>(Resource.Id.BUT_trim2);
+            BUTTON_T3 = FindViewById<ImageButton>(Resource.Id.BUT_trim3);
         }
-        
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -51,49 +47,29 @@ namespace PIC_2018
             LayoutFindViewById();
 
             // -- -- -- CHAMADA DE OUTRAS ACTIVITIES DE FUTURAS TELAS -- -- -- //
-            BUTTON_Objetivos.Click += delegate
+            BUTTON_T1.Click += delegate //ERRO - CHAMADA DE VAR NULA?
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //StartActivity(NextActivity);
                 //Finish();
                 ButtonPressed.LastPressed(11);
-                SetContentView(Resource.Layout.ObjMil);
-                
+                SetContentView(Resource.Layout.Trimestre1);
+
             };
 
-            BUTTON_SUS.Click += delegate
+            BUTTON_T2.Click += delegate
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
-                SetContentView(Resource.Layout.SUS);
+                SetContentView(Resource.Layout.Trimestre2);
                 //StartActivity(NextActivity);
             };
 
-            BUTTON_Protecao.Click += delegate
+            BUTTON_T3.Click += delegate
             {
                 NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
                 //Finish();
-                SetContentView(Resource.Layout.ProtecaoGestacao);
-                //StartActivity(NextActivity);
-
-            };
-
-            BUTTON_Metodos.Click += delegate
-            {
-                NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
-                //Finish();
-                ButtonPressed.LastPressed(14);
-                SetContentView(Resource.Layout.MetConcep);
-                //StartActivity(NextActivity);
-
-            };
-
-            BUTTON_Exames.Click += delegate
-            {
-                NextActivity = new Intent(this, typeof(InformationActivity)); //SetContentView(Resource.Layout.Promocao);
-                //Finish();
-                ButtonPressed.LastPressed(15);
-                SetContentView(Resource.Layout.ExamAnua);
+                SetContentView(Resource.Layout.Trimestre3);
                 //StartActivity(NextActivity);
 
             };

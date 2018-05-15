@@ -12,7 +12,8 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    [Activity(Label = "Prevenção")]
+    [Activity(Label = "Prevenção",
+                ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     class PrevencaoActivity : Activity
     {
         //BOTÕES DA TELA

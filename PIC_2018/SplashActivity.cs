@@ -15,7 +15,8 @@ namespace PIC_2018
 
     //theme = "@style/MyTheme.Splash"
     [Activity(MainLauncher = false,
-              NoHistory = true)]
+              NoHistory = true,
+        ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

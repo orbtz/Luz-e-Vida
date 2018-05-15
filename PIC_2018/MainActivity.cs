@@ -6,7 +6,9 @@ using Android.Content;
 namespace PIC_2018
 {
     //Theme = "@style/MyTheme.Splash"
-    [Activity(Label = "Luz e Vida", MainLauncher = true)]
+    [Activity(  Label = "Luz e Vida",
+                MainLauncher = true,
+                ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class MainActivity : Activity
     {
         ButtonsInfo ButtonsInfo = new ButtonsInfo();

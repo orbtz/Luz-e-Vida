@@ -48,25 +48,103 @@ namespace PIC_2018
 			public const int b01 = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int b02 = 2130837505;
+			public const int b04 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int b03 = 2130837506;
+			public const int b100 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int b04 = 2130837507;
+			public const int b102 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int b05 = 2130837508;
+			public const int b103 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int logo = 2130837509;
+			public const int b104 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int logoFULL = 2130837510;
+			public const int b105 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int objetivosMilenio = 2130837511;
+			public const int b200 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int b201 = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int b202 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int b203 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int b204 = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int b205 = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int b206 = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int b207 = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int b208 = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int b209 = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int b210 = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int b211 = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int b300 = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int b301 = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int b302 = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int b303 = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int b304 = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int b305 = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int b306 = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int b307 = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int b308 = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int b309 = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int b310 = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int b311 = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int logo = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int logoFULL = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int objetivosMilenio = 2130837537;
 			
 			static Drawable()
 			{
@@ -81,38 +159,50 @@ namespace PIC_2018
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05001e
-			public const int BUT_Doencas = 2131034142;
+			// aapt resource value: 0x7f050022
+			public const int BUT_Doencas = 2131034146;
+			
+			// aapt resource value: 0x7f050028
+			public const int BUT_EA = 2131034152;
+			
+			// aapt resource value: 0x7f050018
+			public const int BUT_ExaGest = 2131034136;
+			
+			// aapt resource value: 0x7f050027
+			public const int BUT_MC = 2131034151;
 			
 			// aapt resource value: 0x7f050024
-			public const int BUT_EA = 2131034148;
+			public const int BUT_OM = 2131034148;
 			
-			// aapt resource value: 0x7f050023
-			public const int BUT_MC = 2131034147;
+			// aapt resource value: 0x7f050026
+			public const int BUT_PG = 2131034150;
 			
-			// aapt resource value: 0x7f050020
-			public const int BUT_OM = 2131034144;
-			
-			// aapt resource value: 0x7f050022
-			public const int BUT_PG = 2131034146;
+			// aapt resource value: 0x7f050025
+			public const int BUT_SUS = 2131034149;
 			
 			// aapt resource value: 0x7f050021
-			public const int BUT_SUS = 2131034145;
+			public const int BUT_gesta = 2131034145;
 			
-			// aapt resource value: 0x7f05001d
-			public const int BUT_gesta = 2131034141;
+			// aapt resource value: 0x7f050020
+			public const int BUT_preve = 2131034144;
 			
-			// aapt resource value: 0x7f05001c
-			public const int BUT_preve = 2131034140;
-			
-			// aapt resource value: 0x7f05001b
-			public const int BUT_promo = 2131034139;
+			// aapt resource value: 0x7f05001f
+			public const int BUT_promo = 2131034143;
 			
 			// aapt resource value: 0x7f050015
-			public const int button01 = 2131034133;
+			public const int BUT_trim1 = 2131034133;
 			
 			// aapt resource value: 0x7f050016
-			public const int button02 = 2131034134;
+			public const int BUT_trim2 = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int BUT_trim3 = 2131034135;
+			
+			// aapt resource value: 0x7f05001a
+			public const int button01 = 2131034138;
+			
+			// aapt resource value: 0x7f050019
+			public const int button02 = 2131034137;
 			
 			// aapt resource value: 0x7f050010
 			public const int gono = 2131034128;
@@ -144,11 +234,11 @@ namespace PIC_2018
 			// aapt resource value: 0x7f050013
 			public const int linearLayout11 = 2131034131;
 			
-			// aapt resource value: 0x7f050019
-			public const int linearLayout12 = 2131034137;
+			// aapt resource value: 0x7f05001d
+			public const int linearLayout12 = 2131034141;
 			
-			// aapt resource value: 0x7f05001a
-			public const int linearLayout13 = 2131034138;
+			// aapt resource value: 0x7f05001e
+			public const int linearLayout13 = 2131034142;
 			
 			// aapt resource value: 0x7f050003
 			public const int linearLayout2 = 2131034115;
@@ -162,8 +252,8 @@ namespace PIC_2018
 			// aapt resource value: 0x7f05000b
 			public const int linearLayout5 = 2131034123;
 			
-			// aapt resource value: 0x7f050017
-			public const int linearLayout6 = 2131034135;
+			// aapt resource value: 0x7f05001b
+			public const int linearLayout6 = 2131034139;
 			
 			// aapt resource value: 0x7f05000d
 			public const int linearLayout7 = 2131034125;
@@ -171,14 +261,14 @@ namespace PIC_2018
 			// aapt resource value: 0x7f05000f
 			public const int linearLayout8 = 2131034127;
 			
-			// aapt resource value: 0x7f050018
-			public const int linearLayout9 = 2131034136;
+			// aapt resource value: 0x7f05001c
+			public const int linearLayout9 = 2131034140;
 			
 			// aapt resource value: 0x7f050006
 			public const int mainB04 = 2131034118;
 			
-			// aapt resource value: 0x7f05001f
-			public const int promBBack = 2131034143;
+			// aapt resource value: 0x7f050023
+			public const int promBBack = 2131034147;
 			
 			// aapt resource value: 0x7f050001
 			public const int scrollView1 = 2131034113;
@@ -267,6 +357,15 @@ namespace PIC_2018
 			
 			// aapt resource value: 0x7f030014
 			public const int SUS = 2130903060;
+			
+			// aapt resource value: 0x7f030015
+			public const int Trimestre1 = 2130903061;
+			
+			// aapt resource value: 0x7f030016
+			public const int Trimestre2 = 2130903062;
+			
+			// aapt resource value: 0x7f030017
+			public const int Trimestre3 = 2130903063;
 			
 			static Layout()
 			{

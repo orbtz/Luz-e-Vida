@@ -12,7 +12,8 @@ using Android.Widget;
 
 namespace PIC_2018
 {
-    [Activity(Label = "Doenças")]
+    [Activity(Label = "Doenças",
+                    ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     class DoencasActivity : Activity
     {
         //BOTÕES DA TELA

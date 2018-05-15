@@ -33,7 +33,7 @@
             android:id="@+id/mainB04"
             android:layout_gravity="center"
             android:background="@android:color/transparent"
-            android:src="@drawable/b02"
+            android:src="@drawable/b300"
             android:scaleType="fitXY"
             android:layout_marginRight="10dp" />
         <TextView
@@ -84,10 +84,10 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_ExaGest"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b301"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -114,7 +114,7 @@
                             android:id="@+id/button02"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b05"
+                            android:src="@drawable/b302"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -141,7 +141,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b303"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -168,7 +168,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b304"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -195,7 +195,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b305"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -222,7 +222,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b306"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -249,7 +249,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b307"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -276,7 +276,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b308"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -303,7 +303,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b310"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -330,7 +330,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b309"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
@@ -357,7 +357,7 @@
                             android:id="@+id/button01"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/b02"
+                            android:src="@drawable/b311"
                             android:scaleType="fitXY"
                             android:layout_marginRight="10dp" />
                         <TextView
