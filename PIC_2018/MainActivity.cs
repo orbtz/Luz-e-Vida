@@ -5,10 +5,10 @@ using Android.Content;
 
 namespace PIC_2018
 {
-    //Theme = "@style/MyTheme.Splash"
-    [Activity(  Label = "Luz e Vida",
+    [Activity(  Label = "Gesto e Ação",
                 MainLauncher = true,
-                ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
+                ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait //, Theme = "@style/MyTheme.Splash"
+                )]
     public class MainActivity : Activity
     {
         ButtonsInfo ButtonsInfo = new ButtonsInfo();
@@ -45,7 +45,7 @@ namespace PIC_2018
             {
                 ButtonsInfo.LastPressed(1);
                 NextActivity = new Intent(this, typeof(PromocaoActivity)); //Aqui cria uma var Intent que vai dizer a próxima activity -- //SetContentView(Resource.Layout.Promocao);
-                //Finish();
+                NextActivity.PutExtra("BUTTON_P", 0);
                 StartActivity(NextActivity);
                 
             };
@@ -77,7 +77,7 @@ namespace PIC_2018
             AppActivity ObjectAA = new AppActivity();
             int CL = ObjectAA.ReturnLayout();
 
-            Toast.MakeText(this, "Aperte novamente para fechar o aplicativo", ToastLength.Short).Show();
+            //Toast.MakeText(this, "Aperte novamente para fechar o aplicativo", ToastLength.Short).Show();
 
             SetContentView(Resource.Layout.Main);
             

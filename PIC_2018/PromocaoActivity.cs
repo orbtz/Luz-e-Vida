@@ -24,6 +24,8 @@ namespace PIC_2018
         ImageButton BUTTON_Metodos;     //14
         ImageButton BUTTON_Exames;      //15
 
+        int V;
+
         ButtonsInfo ButtonPressed = new ButtonsInfo();
 
         Intent NextActivity;
@@ -41,14 +43,20 @@ namespace PIC_2018
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Promocao); //Set Main na tela
+
+            V = Intent.Extras.GetInt("BUTTON_P");
+
         }
 
         // ONSTART VAI AQUI //
 
         protected override void OnResume()
         {
+
             base.OnResume();
             LayoutFindViewById();
+            
+            Toast.MakeText(this, "" + V, ToastLength.Short).Show(); //Aparentemente se coloar apenas int ele tenta referenciar um textID
 
             // -- -- -- CHAMADA DE OUTRAS ACTIVITIES DE FUTURAS TELAS -- -- -- //
             BUTTON_Objetivos.Click += delegate

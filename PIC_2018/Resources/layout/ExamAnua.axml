@@ -84,7 +84,7 @@
                                 android:id="@+id/BUT_trim1"
                                 android:layout_gravity="center"
                                 android:background="@android:color/transparent"
-                                android:src="@drawable/b200"
+                                android:src="@drawable/b311"
                                 android:scaleType="fitXY"
                                 android:layout_marginRight="10dp" />
                             <TextView
@@ -110,7 +110,7 @@
                                 android:id="@+id/BUT_trim2"
                                 android:layout_gravity="center"
                                 android:background="@android:color/transparent"
-                                android:src="@drawable/b200"
+                                android:src="@drawable/b311"
                                 android:scaleType="fitXY"
                                 android:layout_marginRight="10dp" />
                             <TextView
@@ -136,7 +136,7 @@
                                 android:id="@+id/BUT_trim3"
                                 android:layout_gravity="center"
                                 android:background="@android:color/transparent"
-                                android:src="@drawable/b200"
+                                android:src="@drawable/b311"
                                 android:scaleType="fitXY"
                                 android:layout_marginRight="10dp" />
                             <TextView

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Luz e Vida</string>
+  <string name="app_name">Gesto e Ação</string>
 
   <!--Splash Screen-->
   <!-- <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">

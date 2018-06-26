@@ -159,35 +159,65 @@ namespace PIC_2018
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050022
-			public const int BUT_Doencas = 2131034146;
+			// aapt resource value: 0x7f050019
+			public const int BUT_DesGra = 2131034137;
 			
-			// aapt resource value: 0x7f050028
-			public const int BUT_EA = 2131034152;
+			// aapt resource value: 0x7f05002b
+			public const int BUT_Doencas = 2131034155;
+			
+			// aapt resource value: 0x7f050031
+			public const int BUT_EA = 2131034161;
+			
+			// aapt resource value: 0x7f05001a
+			public const int BUT_EvoBeb = 2131034138;
 			
 			// aapt resource value: 0x7f050018
 			public const int BUT_ExaGest = 2131034136;
 			
-			// aapt resource value: 0x7f050027
-			public const int BUT_MC = 2131034151;
+			// aapt resource value: 0x7f050030
+			public const int BUT_MC = 2131034160;
 			
-			// aapt resource value: 0x7f050024
-			public const int BUT_OM = 2131034148;
-			
-			// aapt resource value: 0x7f050026
-			public const int BUT_PG = 2131034150;
-			
-			// aapt resource value: 0x7f050025
-			public const int BUT_SUS = 2131034149;
-			
-			// aapt resource value: 0x7f050021
-			public const int BUT_gesta = 2131034145;
+			// aapt resource value: 0x7f05001c
+			public const int BUT_MudCorp = 2131034140;
 			
 			// aapt resource value: 0x7f050020
-			public const int BUT_preve = 2131034144;
+			public const int BUT_Nomes = 2131034144;
 			
-			// aapt resource value: 0x7f05001f
-			public const int BUT_promo = 2131034143;
+			// aapt resource value: 0x7f05002d
+			public const int BUT_OM = 2131034157;
+			
+			// aapt resource value: 0x7f05002f
+			public const int BUT_PG = 2131034159;
+			
+			// aapt resource value: 0x7f050022
+			public const int BUT_PrimCuid = 2131034146;
+			
+			// aapt resource value: 0x7f050026
+			public const int BUT_RisPuer = 2131034150;
+			
+			// aapt resource value: 0x7f05001d
+			public const int BUT_Roupas = 2131034141;
+			
+			// aapt resource value: 0x7f05002e
+			public const int BUT_SUS = 2131034158;
+			
+			// aapt resource value: 0x7f050021
+			public const int BUT_SinPart = 2131034145;
+			
+			// aapt resource value: 0x7f05001e
+			public const int BUT_Sono = 2131034142;
+			
+			// aapt resource value: 0x7f050024
+			public const int BUT_TiposPart = 2131034148;
+			
+			// aapt resource value: 0x7f05002a
+			public const int BUT_gesta = 2131034154;
+			
+			// aapt resource value: 0x7f050029
+			public const int BUT_preve = 2131034153;
+			
+			// aapt resource value: 0x7f050028
+			public const int BUT_promo = 2131034152;
 			
 			// aapt resource value: 0x7f050015
 			public const int BUT_trim1 = 2131034133;
@@ -198,11 +228,8 @@ namespace PIC_2018
 			// aapt resource value: 0x7f050017
 			public const int BUT_trim3 = 2131034135;
 			
-			// aapt resource value: 0x7f05001a
-			public const int button01 = 2131034138;
-			
-			// aapt resource value: 0x7f050019
-			public const int button02 = 2131034137;
+			// aapt resource value: 0x7f050027
+			public const int button02 = 2131034151;
 			
 			// aapt resource value: 0x7f050010
 			public const int gono = 2131034128;
@@ -234,11 +261,11 @@ namespace PIC_2018
 			// aapt resource value: 0x7f050013
 			public const int linearLayout11 = 2131034131;
 			
-			// aapt resource value: 0x7f05001d
-			public const int linearLayout12 = 2131034141;
+			// aapt resource value: 0x7f050023
+			public const int linearLayout12 = 2131034147;
 			
-			// aapt resource value: 0x7f05001e
-			public const int linearLayout13 = 2131034142;
+			// aapt resource value: 0x7f050025
+			public const int linearLayout13 = 2131034149;
 			
 			// aapt resource value: 0x7f050003
 			public const int linearLayout2 = 2131034115;
@@ -261,14 +288,14 @@ namespace PIC_2018
 			// aapt resource value: 0x7f05000f
 			public const int linearLayout8 = 2131034127;
 			
-			// aapt resource value: 0x7f05001c
-			public const int linearLayout9 = 2131034140;
+			// aapt resource value: 0x7f05001f
+			public const int linearLayout9 = 2131034143;
 			
 			// aapt resource value: 0x7f050006
 			public const int mainB04 = 2131034118;
 			
-			// aapt resource value: 0x7f050023
-			public const int promBBack = 2131034147;
+			// aapt resource value: 0x7f05002c
+			public const int promBBack = 2131034156;
 			
 			// aapt resource value: 0x7f050001
 			public const int scrollView1 = 2131034113;
@@ -332,40 +359,67 @@ namespace PIC_2018
 			public const int ExamAnua = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int Gestacao = 2130903052;
+			public const int Gdescobrindo = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int Information = 2130903053;
+			public const int Gestacao = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int Main = 2130903054;
+			public const int Gevolucao = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int MetConcep = 2130903055;
+			public const int Gmudancas = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int ObjMil = 2130903056;
+			public const int Gparto = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int Prevencao = 2130903057;
+			public const int Gprimeiros = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int Promocao = 2130903058;
+			public const int Gpuerperio = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int ProtecaoGestacao = 2130903059;
+			public const int Gsinais = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int SUS = 2130903060;
+			public const int Gsono = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int Trimestre1 = 2130903061;
+			public const int Information = 2130903061;
 			
 			// aapt resource value: 0x7f030016
-			public const int Trimestre2 = 2130903062;
+			public const int Main = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int Trimestre3 = 2130903063;
+			public const int MetConcep = 2130903063;
+			
+			// aapt resource value: 0x7f030018
+			public const int ObjMil = 2130903064;
+			
+			// aapt resource value: 0x7f030019
+			public const int Prevencao = 2130903065;
+			
+			// aapt resource value: 0x7f03001a
+			public const int Principal = 2130903066;
+			
+			// aapt resource value: 0x7f03001b
+			public const int Promocao = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int ProtecaoGestacao = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int SUS = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int Trimestre1 = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int Trimestre2 = 2130903071;
+			
+			// aapt resource value: 0x7f030020
+			public const int Trimestre3 = 2130903072;
 			
 			static Layout()
 			{

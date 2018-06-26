@@ -43,8 +43,8 @@
                 android:gravity="center"
                 android:layout_marginTop="25dp">
                 <ImageButton
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:id="@+id/BUT_promo"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
@@ -97,8 +97,8 @@
                 android:gravity="center"
                 android:layout_marginTop="25dp">
                 <ImageButton
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:id="@+id/BUT_preve"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
@@ -123,8 +123,8 @@
                 android:gravity="center"
                 android:layout_marginTop="25dp">
                 <ImageButton
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:id="@+id/BUT_gesta"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"

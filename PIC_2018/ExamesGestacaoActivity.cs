@@ -36,7 +36,7 @@ namespace PIC_2018
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.Promocao); //Set Main na tela
+            SetContentView(Resource.Layout.ExamAnua); //Set Main na tela
         }
 
         // ONSTART VAI AQUI //

@@ -111,7 +111,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button02"
+                            android:id="@+id/BUT_DesGra"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b302"
@@ -138,7 +138,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_EvoBeb"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b303"
@@ -165,7 +165,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_MudCorp"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b304"
@@ -192,7 +192,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_Roupas"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b305"
@@ -219,7 +219,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_Sono"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b306"
@@ -246,7 +246,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_Nomes"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b307"
@@ -273,7 +273,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_SinPart"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b308"
@@ -300,7 +300,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_PrimCuid"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b310"
@@ -327,7 +327,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_TiposPart"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b309"
@@ -354,7 +354,7 @@
                         <ImageButton
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:id="@+id/button01"
+                            android:id="@+id/BUT_RisPuer"
                             android:layout_gravity="center"
                             android:background="@android:color/transparent"
                             android:src="@drawable/b311"
