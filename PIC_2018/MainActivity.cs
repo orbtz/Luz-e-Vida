@@ -18,6 +18,8 @@ namespace PIC_2018
         ImageButton BUTTON_prevencao;
         ImageButton BUTTON_gestacao;
 
+        //
+
         Intent NextActivity;
 
         public void LayoutFindViewById() //"Escuta" os ImageButtons
